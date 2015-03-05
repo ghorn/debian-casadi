@@ -24,7 +24,7 @@ Homepage: http://casadi.org
 Vcs-Git: git://github.com/casadi/casadi.git
 Vcs-Browser: https://github.com/casadi/casadi
 
-Package: libcasadi-core2.1
+Package: libcasadi-core2.2
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
@@ -56,7 +56,7 @@ Package: libcasadi-core-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: CasADi core module (development files)
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -81,11 +81,11 @@ Description: CasADi core module (development files)
  This package contains the core library development files.
 
 
-Package: libcasadi-sundials-common2.1
+Package: libcasadi-sundials-common2.2
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version}),
+         libcasadi-core2.2 (= ${binary:Version}),
 Description: numerical optimization and algorithmic differentiation framework
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -114,7 +114,7 @@ Package: libcasadi-nlpsolver-ipopt
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version}),
+         libcasadi-core2.2 (= ${binary:Version}),
          coinor-libipopt1
 Description: IPOPT plugin for CasADi optimization framework
  CasADi is a numerical optimization and algorithmic differentiation framework.
@@ -144,7 +144,7 @@ Package: libcasadi-nlpsolver-snopt
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: SNOPT plugin for CasADi optimization framework
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -173,7 +173,7 @@ Package: libcasadi-solvers
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: CasADi's suite of numerical solvers
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -202,7 +202,7 @@ Package: libcasadi-linearsolver-csparse
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: CSparse plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -231,7 +231,7 @@ Description: CSparse plugin for CasADi
 #Architecture: any
 #Depends: ${shlibs:Depends},
 #         ${misc:Depends},
-#         libcasadi-core2.1 (= ${binary:Version})
+#         libcasadi-core2.2 (= ${binary:Version})
 #Description: DSDP plugin for CasADi
 # CasADi is a numerical optimization and algorithmic differentiation framework.
 # It can be used from C++ or Python.
@@ -260,7 +260,7 @@ Package: libcasadi-dplesolver-slicot
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: SLICOT plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -289,7 +289,7 @@ Package: libcasadi-qpsolver-qpoases
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: qpOASES plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -318,7 +318,7 @@ Package: libcasadi-linearsolver-lapack
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: LAPACK linear solver plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -347,8 +347,8 @@ Package: libcasadi-sundials
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version}),
-         libcasadi-sundials-common2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version}),
+         libcasadi-sundials-common2.2 (= ${binary:Version})
 Description: SUNDIALS integrators plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -377,7 +377,7 @@ Package: libcasadi-xmlfile-tinyxml
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version})
+         libcasadi-core2.2 (= ${binary:Version})
 Description: TinyXML plugin for CasADi
  CasADi is a numerical optimization and algorithmic differentiation framework.
  It can be used from C++ or Python.
@@ -406,7 +406,7 @@ Package: python-casadi
 Section: python
 Architecture: any
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
-         libcasadi-core2.1 (= ${binary:Version}),
+         libcasadi-core2.2 (= ${binary:Version}),
          python-numpy-abi9,
 	 python-numpy (>= 1:1.6.1)
 Provides: ${python:Provides}
