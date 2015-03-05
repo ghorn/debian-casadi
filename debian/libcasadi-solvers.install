@@ -12,7 +12,6 @@ usr/lib/casadi/libcasadi_qpsolver_qcqp.so
 
 
 usr/lib/casadi/libcasadi_socpsolver_sdp.so
-usr/lib/casadi/libcasadi_dplesolver_simple.so
 
 usr/lib/casadi/libcasadi_stabilizedqpsolver_qp.so
 

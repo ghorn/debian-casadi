@@ -15,7 +15,6 @@ CMAKE_FLAGS = \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DWITH_DEBIAN_BUILD=ON \
 	-DWITH_PYTHON=ON \
-	-DWITH_SLICOT=ON \
 	-DWITH_BUILD_SUNDIALS=OFF \
 	-DWITH_DSDP=OFF \
 	-DWITH_BUILD_DSDP=OFF \
@@ -42,7 +41,6 @@ override_dh_install:
 	LD_LIBRARY_PATH=\
 	$(CURDIR)/debian/libcasadi-core-dev/usr/lib:\
 	$(CURDIR)/debian/libcasadi-core2.2/usr/lib:\
-	$(CURDIR)/debian/libcasadi-dplesolver-slicot/usr/lib/casadi:\
 	$(CURDIR)/debian/libcasadi-linearsolver-csparse/usr/lib/casadi:\
 	$(CURDIR)/debian/libcasadi-linearsolver-lapack/usr/lib/casadi:\
 	$(CURDIR)/debian/libcasadi-nlpsolver-ipopt/usr/lib/casadi:\
