@@ -1,0 +1,8 @@
+The Debian Package casadi
+----------------------------
+
+Unit tests for this package are not integrated into the build system, they
+must be run post-install. This causes the ugly override_dh_install rule.
+
+-- Greg Horn <gregmainland@gmail.com>  Fri, 10 Oct 2014 16:32:47 +0200
+
